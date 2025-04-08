@@ -1,0 +1,37 @@
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.rounded-full {
+  border-radius: 100px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.ml-auto{
+    display: block !important;
+    margin-left: auto;
+}
+
+.w-full{
+    width: 100%;
+}

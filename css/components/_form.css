@@ -1,0 +1,66 @@
+.form {
+  width: 300px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-label,
+.select-label,
+.check-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.input,
+.select {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 11px;
+  font-size: 12px;
+}
+
+.input::placeholder {
+  font-size: 12px;
+}
+
+.select option {
+  font-size: 12px;
+}
+
+.select {
+  appearance: none;
+  background-image: url("../../assets-main/images/dropdown.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right 7px top 7px;
+}
+
+.check-group label {
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.check {
+  appearance: none;
+  width: 11px;
+  height: 11px;
+  border: 1px solid black;
+}
+
+.check:checked {
+  background-image: url("../../assets-main/images/select.svg");
+  background-repeat: no-repeat;
+  background-size: 7px;
+  background-position: center;
+}
+
+.btn {
+  height: 35px;
+}

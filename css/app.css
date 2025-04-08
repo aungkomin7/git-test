@@ -1,0 +1,13 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@import url("./_global.css");
+@import url("./_variables.css");
+@import url("./_utilities.css");
+@import url("./components/_text.css");
+@import url("./components/_buttons.css");
+@import url("./components/_tables.css");
+@import url("./components/_menu.css");
+@import url("./components/_card.css");
+@import url("./components/_form.css");
+@import url("./components/_fonts.css");
+
+

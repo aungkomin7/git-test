@@ -1,0 +1,28 @@
+.menu{
+    width: 120px;
+}
+
+.menu-item{
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: lightslategray;
+    color: white;
+}
+
+.menu-item:last-child{
+    border-bottom: none;
+}
+
+.menu-h{
+    width: 100%;
+    background-color: lightslategray;
+}
+
+.menu-h-item{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}

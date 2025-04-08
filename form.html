@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: linear-gradient(45deg,#b92c27dd,#1565c0dd) , url("./assets-main/images/love.gif");
+            background-repeat: no-repeat;
+            background-size: cover, 100px;
+            background-position: center, left 280px top 200px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h2 class="heading text-center">Register Form</h2>
+      <form action="#" method="get">
+        <div class="input-group">
+          <label class="input-label" for="username">Username</label>
+          <input
+            type="text"
+            id="userName"
+            name="Username"
+            class="input"
+            placeholder="Eg. John Joe"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="input-label" for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="Password"
+            class="input"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="input-label" for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            class="input"
+            placeholder="Eg. johnjoe@email.com"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="select-label" for="nationality">Nationality</label>
+          <select name="nationality" id="nationality" class="select" required>
+            <option value="jp">Japan</option>
+            <option value="mm" selected>Myanmar</option>
+            <option value="th">Thailand</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label class="check-label" for="">Your Skills</label>
+          <div class="check-group">
+            <input
+              type="checkbox"
+              id="html"
+              name="HTML"
+              class="check"
+              value="html"
+            /><label for="html">HTML</label>
+          </div>
+
+          <div class="check-group">
+            <input
+              type="checkbox"
+              id="css"
+              name="css"
+              class="check"
+              value="css"
+            /><label for="css">CSS</label>
+          </div>
+
+          <div class="check-group">
+            <input
+              type="checkbox"
+              id="js"
+              name="js"
+              class="check"
+              value="js"
+            /><label for="js">JavaScript</label>
+          </div>
+        </div>
+
+        <button class="btn btn-grey w-full rounded">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

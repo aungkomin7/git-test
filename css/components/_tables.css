@@ -1,0 +1,58 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 6px 12px;
+  font-size: 9px;
+}
+
+.table td {
+  font-size: 7px;
+}
+
+.table-header-yellow {
+  background-color: var(--yellow);
+  color: white;
+}
+
+.table-header-orange {
+  background-color: var(--orange);
+  color: white;
+}
+
+.table-border-yellow th,
+.table-border-yellow td {
+  border-bottom: 1px solid var(--yellow);
+}
+
+.table-border-orange th,
+.table-border-orange td {
+  border: 1px solid var(--orange);
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: rgba(119, 136, 153, 0.2);
+}
+
+.table-border-yellow.table-striped tbody tr:nth-child(odd) {
+  background-color: rgba(255, 217, 0, 0.1);
+}
+
+.table-border-orange.table-striped tbody tr:nth-child(odd) {
+  background-color: rgba(255, 166, 0, 0.1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(119, 136, 153, 0.3);
+}
+
+.table-border-yellow.table-hover tbody tr:hover {
+  background-color: rgba(255, 217, 0, 0.2);
+}
+
+.table-border-orange.table-hover tbody tr:hover {
+  background-color: rgba(255, 166, 0, 0.2);
+}

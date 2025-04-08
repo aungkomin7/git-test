@@ -1,0 +1,57 @@
+.btn {
+  display: inline-block;
+  height: 30px;
+  padding: 0 12px;
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.btn-icon {
+  padding: 0;
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 2px;
+}
+
+.btn-yellow {
+  border: 1px solid var(--yellow);
+  background-color: var(--yellow);
+}
+
+.btn-orange {
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
+}
+
+.btn-grey {
+  border: 1px solid var(--grey);
+  background-color: var(--grey);
+}
+
+.btn-yellow-outline {
+  border: 1px solid var(--yellow);
+  background-color: transparent;
+  color: var(--yellow);
+}
+
+.btn-orange-outline {
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  color: var(--orange);
+}
+
+.btn-grey-outline {
+  border: 1px solid var(--grey);
+  background-color: transparent;
+  color: var(--grey);
+}
